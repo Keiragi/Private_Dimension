@@ -14,6 +14,9 @@
   execute at @s run kill @e[type=marker,tag=PrivateDim.BackMarker,distance=..0.1,sort=nearest,limit=1]
   execute at @s run forceload remove ~ ~
 
-effect give @s slow_falling 1 0 true
-tp @s @s
-advancement revoke @s only private_dimension:event/fell_out
+# 落下のリセット
+  effect give @s slow_falling 1 0 true
+  tp @s @s
+
+# リセット
+  advancement revoke @s only private_dimension:event/fell_out
