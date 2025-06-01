@@ -5,4 +5,4 @@
   execute anchored eyes positioned ^ ^ ^1.5 run playsound minecraft:item.bottle.fill_dragonbreath player @a ~ ~ ~ 1 2
 
 # 進捗消去
-  advancement revoke @s only private_dimension:craft/dimension_in_a_bottle
+  advancement revoke @s only private_dimension:item/dimension_in_a_bottle

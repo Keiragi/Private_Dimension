@@ -1,7 +1,7 @@
 ## 使用時
 
 # リセット
-  advancement revoke @s only private_dimension:consume/dimension_in_a_bottle
+  advancement revoke @s only private_dimension:item/consume
 
 # 演出
   execute at @s run function private_dimension:event/vfx
@@ -13,7 +13,7 @@
   effect give @s blindness 1 0 true
 
 # プライベート次元でないなら、プライベート次元に移動
-  execute unless dimension private_dimension:private_area run return run function private_dimension:item/check_haveplot
+  execute unless dimension private_dimension:private_area run return run function private_dimension:transfer/check_haveplot
 
 # プライベート次元なら、ベースワールドに帰還
-  execute if dimension private_dimension:private_area run return run function private_dimension:item/goto_baseworld/goto_backmarker
+  execute if dimension private_dimension:private_area run return run function private_dimension:transfer/goto_baseworld/goto_backmarker
