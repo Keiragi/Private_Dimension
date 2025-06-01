@@ -4,9 +4,6 @@
 #
 # @within function private_dimension:item/dimension_in_a_bottle/use
 
-# 移動済みタグを付与
-  tag @s add PrivateDim.Teleported
-
 # 戻る地点を記録しておく
   forceload add ~ ~
   summon marker ~ ~ ~ {Tags:["PrivateDim.BackMarker"]}
