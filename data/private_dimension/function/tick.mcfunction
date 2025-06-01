@@ -10,13 +10,10 @@
 # アイテム保護
   execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ChuzData:{ItemID:Dimension_in_a_Bottle}}}}}] at @s run function private_dimension:entity/protected_item
 
-# ボーダー
-  execute as @e[type=marker,tag=PrivateDim.PlotBorder] at @s run function private_dimension:entity/plotborder/tick
-
 # 死んだら実行される
   execute as @a[scores={PrivateDim.Death=0..}] at @s run function private_dimension:event/death
 
 # スコアID
-  execute as @a unless score @s Chuz.PlayerID matches 0.. run function private_dimension:player_id
+  execute as @a unless score @s Chuz.PlayerID matches 0.. run function private_dimension:entity/player_id
 
 execute at @e[type=minecraft:marker] run particle minecraft:electric_spark
