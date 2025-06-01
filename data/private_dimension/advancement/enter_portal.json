@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "enter_portal": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:purple_stained_glass_pane"
+      }
+    }
+  },
+  "rewards": {
+    "function": "private_dimension:enter_portal"
+  }
+}
