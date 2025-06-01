@@ -18,10 +18,10 @@
 
 # 足場置く
   setblock ~ ~ ~ air
-  execute positioned ~-24 ~ ~-24 run place template private_dimension:plot48x48
+  execute positioned ~-16 55 ~-16 run place template private_dimension:floating_plains
 
 # 下に降りる
-  tp @s ~ 65 ~
+  tp @s ~ 63 ~
 
 # ボーダー召喚
   summon marker ~ 60 ~ {Tags:["PrivateDim.PlotBorder"]}
