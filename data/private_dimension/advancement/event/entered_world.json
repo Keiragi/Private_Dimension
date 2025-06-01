@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "private_dimension:event/install/check"
+    "function": "private_dimension:init/install/check"
   }
 }

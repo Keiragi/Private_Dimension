@@ -10,6 +10,6 @@
   execute as @a[scores={PrivateDim.Death=0..}] at @s run function private_dimension:event/death
 
 # スコアID
-  execute as @a unless score @s Chuz.PlayerID matches 0.. run function private_dimension:entity/player_id
+  execute as @a unless score @s Chuz.PlayerID matches 0.. run function private_dimension:init/player_id
 
 execute at @e[type=minecraft:marker] run particle minecraft:electric_spark
