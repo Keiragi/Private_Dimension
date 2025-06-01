@@ -8,7 +8,7 @@
   advancement revoke @s only private_dimension:consume/dimension_in_a_bottle
 
 # 演出
-  execute at @s run function private_dimension:item/dimension_in_a_bottle/vfx
+  execute at @s run function private_dimension:event/vfx
 
 # スニークしてたら周囲の存在を巻き込んで移動する
   execute if predicate private_dimension:sneak run tag @e[type=!#private_dimension:cannot_tp,distance=..3,limit=10] add PrivateDim.Bring

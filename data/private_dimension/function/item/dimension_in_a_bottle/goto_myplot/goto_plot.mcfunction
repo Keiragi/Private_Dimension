@@ -14,7 +14,7 @@
   execute as @e[type=marker,tag=PrivateDim.TPMarker,sort=nearest,limit=1] run function private_dimension:item/dimension_in_a_bottle/goto_myplot/goto_saved_pos
 
 # 場所を更新した上で演出
-  execute at @s run function private_dimension:item/dimension_in_a_bottle/vfx
+  execute at @s run function private_dimension:event/vfx
 
 # タグ付与してたらモブを引っ張ってくる
   execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:item/dimension_in_a_bottle/pull_mobs

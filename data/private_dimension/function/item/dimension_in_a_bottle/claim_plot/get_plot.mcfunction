@@ -35,7 +35,7 @@
   execute at @s store result score @s PrivateDim.PosZ run data get entity @s Pos[2] 10
 
 # 場所を更新した上で演出
-  execute at @s run function private_dimension:item/dimension_in_a_bottle/vfx
+  execute at @s run function private_dimension:event/vfx
 
 # 即座に追い出されないようにする
   tag @s add PrivateDim.InPlot

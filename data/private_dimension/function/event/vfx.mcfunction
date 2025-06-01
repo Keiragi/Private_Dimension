@@ -1,4 +1,4 @@
-#> private_dimension:item/dimension_in_a_bottle/vfx
+#> private_dimension:event/vfx
 #
 #
 #
