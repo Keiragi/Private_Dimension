@@ -1,8 +1,4 @@
-#> private_dimension:item/check_haveplot
-#
-# 個人ディメンションに移動
-#
-# @within function private_dimension:item/use
+## 個人ディメンションに移動
 
 # 戻る地点を記録しておく
   forceload add ~ ~

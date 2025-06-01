@@ -1,8 +1,4 @@
-#> private_dimension:item/goto_baseworld/end
-#
-# 移動先で実行される
-#
-# @within function private_dimension:item/goto_baseworld/goto_backmarker
+## 移動先で実行される
 
 # 演出
   function private_dimension:event/vfx

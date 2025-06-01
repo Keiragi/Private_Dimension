@@ -1,10 +1,4 @@
-#> private_dimension:item/claim_plot/check
-#
-# 取得されてるエリアかどうかチェック
-#
-# @within function
-#   private_dimension:item/claim_plot/goto_000
-#   private_dimension:item/claim_plot/check
+## 取得されてるエリアかどうかチェック
 
 # 強制読み込み
   forceload add ~ ~

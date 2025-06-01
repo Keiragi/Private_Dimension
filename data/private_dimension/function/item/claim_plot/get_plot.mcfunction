@@ -1,8 +1,3 @@
-#> private_dimension:item/claim_plot/get_plot
-#
-#
-#
-# @within function private_dimension:item/claim_plot/check
 
 # 強制読み込み
   forceload add ~ ~

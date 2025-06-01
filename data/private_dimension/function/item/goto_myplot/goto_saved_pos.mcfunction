@@ -1,8 +1,4 @@
-#> private_dimension:item/goto_myplot/goto_saved_pos
-#
-# 使用者の保存Posを使って移動
-#
-# @within function private_dimension:item/goto_myplot/goto_plot
+## 使用者の保存Posを使って移動
 
 # 保存Posのそれぞれを自身のPosにする
   execute store result entity @s Pos[0] double 0.1 run scoreboard players get @a[tag=This,limit=1] PrivateDim.PosX

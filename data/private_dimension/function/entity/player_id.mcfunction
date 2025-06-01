@@ -1,8 +1,4 @@
-#> private_dimension:entity/player_id
-#
-# プレイヤーIDを割り振る
-#
-# @within function private_dimension:tick
+## プレイヤーIDを割り振る
 
 # プレイヤーに数値IDを割り振る
   scoreboard players add $Chuz.PlayerID.Core Chuz.PlayerID.Core 1

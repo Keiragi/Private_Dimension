@@ -1,10 +1,4 @@
-#> private_dimension:item/goto_baseworld/goto_backmarker
-#
-# 使った場所に戻る
-#
-# @within function
-#   private_dimension:item/use
-#   private_dimension:entity/plotborder
+## 使った場所に戻る
 
 # 自身と同じIDのバックマーカーへ移動
   execute at @e[type=marker,tag=PrivateDim.BackMarker] if score @s Chuz.PlayerID = @e[type=marker,tag=PrivateDim.BackMarker,distance=..0.1,sort=nearest,limit=1] Chuz.EntityID run tp @s ~ ~ ~

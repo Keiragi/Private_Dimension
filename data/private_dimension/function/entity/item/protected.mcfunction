@@ -1,8 +1,4 @@
-#> private_dimension:entity/item/protected
-#
-# キラキラ光って無敵のアイテム
-#
-# @within function private_dimension:tick
+## キラキラ光って無敵のアイテム
 
 # キラキラ光る
   particle minecraft:electric_spark ~ ~0.2 ~ 0.1 0.1 0.1 0 1 force @a[distance=..30]

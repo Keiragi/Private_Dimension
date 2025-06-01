@@ -1,10 +1,4 @@
-#> private_dimension:event/vfx
-#
-#
-#
-# @within function
-#   private_dimension:item/**
-#   private_dimension:event/force_back
+## 演出
 
 # サウンド
   playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 2 0.8

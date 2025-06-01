@@ -1,8 +1,4 @@
-#> private_dimension:item/craft
-#
-# 作成
-#
-# @within advancement private_dimension:craft/dimension_in_a_bottle
+## 作成
 
 # 演出
   execute anchored eyes positioned ^ ^ ^1.5 run playsound minecraft:entity.ender_eye.death player @a ~ ~ ~ 1 1

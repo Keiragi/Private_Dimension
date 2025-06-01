@@ -1,9 +1,4 @@
-#> private_dimension:load
-#
-# load時の処理
-#
-# @within tag/function minecraft:load
-
+## load時の処理
 
 #> スコアID関連のスコボード
   scoreboard objectives add Chuz.PlayerID.Core dummy

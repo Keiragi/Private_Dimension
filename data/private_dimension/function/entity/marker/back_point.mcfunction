@@ -1,8 +1,4 @@
-#> private_dimension:entity/marker/back_point
-#
-# バックマーカーのTick処理
-#
-# @within function private_dimension:tick
+## バックマーカーのTick処理
 
 # パーティクル
   particle minecraft:glow ~ ~0.5 ~ 0.1 0.1 0.1 0 1 force @a[distance=..30]

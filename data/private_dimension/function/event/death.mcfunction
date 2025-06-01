@@ -1,8 +1,4 @@
-#> private_dimension:event/death
-#
-# 死んだときもろもろ
-#
-# @within function private_dimension:tick
+## 死んだときもろもろ
 
 # 自身のバックマーカーを削除、その場所のロードを解除
   execute at @e[type=marker,tag=PrivateDim.BackMarker] if score @s Chuz.PlayerID = @e[type=marker,tag=PrivateDim.BackMarker,distance=..0.1,sort=nearest,limit=1] Chuz.EntityID run forceload remove ~ ~

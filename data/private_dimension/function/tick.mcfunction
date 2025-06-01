@@ -1,8 +1,4 @@
-#> private_dimension:tick
-#
-# 常時Tickされる処理
-#
-# @within tag/function minecraft:tick
+## 常時Tickされる処理
 
 # バックマーカーの見た目的なもの
   execute at @e[type=marker,tag=PrivateDim.BackMarker] run function private_dimension:entity/marker/back_point

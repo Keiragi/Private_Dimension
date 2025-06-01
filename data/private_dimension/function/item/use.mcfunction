@@ -1,8 +1,4 @@
-#> private_dimension:item/use
-#
-# 使用時
-#
-# @within function private_dimension:event/throw_linger_potion/main
+## 使用時
 
 # リセット
   advancement revoke @s only private_dimension:consume/dimension_in_a_bottle

@@ -1,8 +1,4 @@
-#> private_dimension:item/goto_myplot/goto_plot
-#
-# 自分の持ってる空間へと移動
-#
-# @within function private_dimension:item/check_haveplot
+## 自分の持ってる空間へと移動
 
 # 使用者判定用タグを付与
   tag @s add This

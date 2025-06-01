@@ -1,8 +1,4 @@
-#> private_dimension:event/install/check
-#
-# インストールチェック
-#
-# @within advancement private_dimension:entered_world
+## インストールチェック
 
 execute unless data storage chuz:context PrivateDim.Install run function private_dimension:event/install/main
 data modify storage chuz:context PrivateDim.Install set value 1
