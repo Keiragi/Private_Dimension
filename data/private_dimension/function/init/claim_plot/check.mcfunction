@@ -4,10 +4,10 @@
   forceload add ~ ~
 
 # マーカーが無ければY65へと移動してエリア生成
-  execute unless block ~ 60 ~ bedrock run function private_dimension:transfer/claim_plot/get_plot
+  execute unless block ~ 60 ~ bedrock run function private_dimension:init/claim_plot/get_plot
 
 # 岩盤を調べて、あったら横に128ずれてもう一度実行
-  execute unless entity @s[tag=PrivateDim.ClaimSuccess] positioned ~ 60 ~ if block ~ ~ ~ bedrock positioned ~ ~ ~128 run function private_dimension:transfer/claim_plot/check
+  execute unless entity @s[tag=PrivateDim.ClaimSuccess] positioned ~ 60 ~ if block ~ ~ ~ bedrock positioned ~ ~ ~128 run function private_dimension:init/claim_plot/check
 
 # タグ削除
   tag @s remove PrivateDim.ClaimSuccess
