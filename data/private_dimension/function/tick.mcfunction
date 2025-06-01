@@ -8,7 +8,7 @@
   execute at @e[type=marker,tag=PrivateDim.BackMarker] run function private_dimension:entity/backmarker
 
 # アイテム保護
-  execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ChuzData:{ItemID:Dimension_in_a_Bottle}}}}}] at @s run function private_dimension:entity/protected_item
+  execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ChuzData:{ItemID:Dimension_in_a_Bottle}}}}}] at @s run function private_dimension:entity/item/protected
 
 # 死んだら実行される
   execute as @a[scores={PrivateDim.Death=0..}] at @s run function private_dimension:event/death

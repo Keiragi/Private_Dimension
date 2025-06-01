@@ -1,4 +1,4 @@
-#> private_dimension:entity/protected_item
+#> private_dimension:entity/item/protected
 #
 # キラキラ光って無敵のアイテム
 #
