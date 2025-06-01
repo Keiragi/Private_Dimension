@@ -1,4 +1,4 @@
-#> private_dimension:item/dimension_in_a_bottle/craft
+#> private_dimension:item/craft
 #
 # 作成
 #

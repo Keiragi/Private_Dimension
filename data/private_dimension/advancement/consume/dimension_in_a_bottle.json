@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "private_dimension:item/dimension_in_a_bottle/use"
+    "function": "private_dimension:item/use"
   }
 }

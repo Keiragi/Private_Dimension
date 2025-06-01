@@ -3,7 +3,7 @@
 #
 #
 # @within function
-#   private_dimension:item/dimension_in_a_bottle/**
+#   private_dimension:item/**
 #   private_dimension:event/force_back
 
 # サウンド

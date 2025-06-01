@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "private_dimension:item/dimension_in_a_bottle/remainder"
+          "function": "private_dimension:item/remainder"
         }
       }
     ]

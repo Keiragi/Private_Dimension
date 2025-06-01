@@ -3,11 +3,11 @@
     "craft": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "private_dimension:item/dimension_in_a_bottle"
+        "recipe_id": "private_dimension:item"
       }
     }
   },
   "rewards": {
-    "function": "private_dimension:item/dimension_in_a_bottle/craft"
+    "function": "private_dimension:item/craft"
   }
 }

@@ -1,8 +1,8 @@
-#> private_dimension:item/dimension_in_a_bottle/claim_plot/get_plot
+#> private_dimension:item/claim_plot/get_plot
 #
 #
 #
-# @within function private_dimension:item/dimension_in_a_bottle/claim_plot/check
+# @within function private_dimension:item/claim_plot/check
 
 # 強制読み込み
   forceload add ~ ~
@@ -27,7 +27,7 @@
   summon marker ~ 60 ~ {Tags:["PrivateDim.PlotBorder"]}
 
 # タグ付与してたらモブを引っ張ってくる
-  execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:item/dimension_in_a_bottle/pull_mobs
+  execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:item/pull_mobs
 
 # 自身のPosをスコア化
   execute at @s store result score @s PrivateDim.PosX run data get entity @s Pos[0] 10
