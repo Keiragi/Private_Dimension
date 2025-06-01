@@ -11,10 +11,10 @@
   execute if predicate private_dimension:sneak run tag @e[type=!#private_dimension:cannot_tp,distance=..3,limit=10] add PrivateDim.Bring
 
 # プライベート次元でないなら、プライベート次元に移動
-  execute if entity @s[tag=!PrivateDim.Teleported,predicate=!private_dimension:in_private_area] run function private_dimension:item/dimension_in_a_bottle/check_haveplot
+  execute if entity @s[tag=!PrivateDim.Teleported] unless dimension private_dimension:private_area run function private_dimension:item/dimension_in_a_bottle/check_haveplot
 
 # プライベート次元なら、ベースワールドに帰還
-  execute if entity @s[tag=!PrivateDim.Teleported,predicate=private_dimension:in_private_area] run function private_dimension:item/dimension_in_a_bottle/goto_baseworld/goto_backmarker
+  execute if entity @s[tag=!PrivateDim.Teleported] if dimension private_dimension:private_area run function private_dimension:item/dimension_in_a_bottle/goto_baseworld/goto_backmarker
 
 # エフェクト
   effect give @s blindness 1 0 true
