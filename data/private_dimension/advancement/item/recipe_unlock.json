@@ -13,7 +13,7 @@
   },
   "rewards": {
     "recipes": [
-      "private_dimension:item/dimension_in_a_bottle"
+      "private_dimension:dimension_in_a_bottle"
     ]
   }
 }
