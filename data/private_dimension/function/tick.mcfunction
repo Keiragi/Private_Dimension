@@ -4,12 +4,6 @@
 #
 # @within tag/function minecraft:tick
 
-# 残留ポーションを投げると実行される
-  execute as @a[scores={PrivateDim.Use.LingerPotion=0..}] at @s run function private_dimension:event/throw_linger_potion/main
-
-# 無理やりアイテムを拾う
-  execute as @a[tag=PrivateDim.ForcePickup] at @s run function private_dimension:event/force_pickup
-
 # バックマーカーの見た目的なもの
   execute at @e[type=marker,tag=PrivateDim.BackMarker] run function private_dimension:entity/backmarker
 

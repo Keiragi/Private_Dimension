@@ -19,10 +19,6 @@
 # タグ付与してたらモブを引っ張ってくる
   execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:item/dimension_in_a_bottle/pull_mobs
 
-# アイテムが戻ってくる
-  execute at @s[gamemode=!creative] run loot spawn ~ ~ ~ loot private_dimension:item/dimension_in_a_bottle
-  tag @s[gamemode=!creative] add PrivateDim.ForcePickup
-
 # 即座に追い出されないようにする
   tag @s add PrivateDim.InPlot
 

@@ -14,7 +14,6 @@
 #> このデータパックのスコア
   scoreboard objectives add PrivateDim.HavePlot dummy
   scoreboard objectives add PrivateDim.PlotID dummy
-  scoreboard objectives add PrivateDim.Use.LingerPotion minecraft.used:minecraft.lingering_potion
   scoreboard objectives add PrivateDim.Death deathCount
 
 #> 区画のXYZ座標

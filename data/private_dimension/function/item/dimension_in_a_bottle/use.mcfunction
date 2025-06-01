@@ -4,12 +4,6 @@
 #
 # @within function private_dimension:event/throw_linger_potion/main
 
-# エンティティとしてのポーションは不要なのでキル
-  kill @e[type=lingering_potion,sort=nearest,limit=1]
-
-# 投げた音を止める
-  stopsound @s neutral minecraft:entity.lingering_potion.throw
-
 # 演出
   execute at @s run function private_dimension:item/dimension_in_a_bottle/vfx
 
@@ -23,7 +17,10 @@
   execute if entity @s[tag=!PrivateDim.Teleported,predicate=private_dimension:in_private_area] run function private_dimension:item/dimension_in_a_bottle/goto_baseworld/goto_backmarker
 
 # エフェクト
-  effect give @s blindness 2 0 true
+  effect give @s blindness 1 0 true
 
 # 移動終わったらタグリセット
   tag @s remove PrivateDim.Teleported
+
+# リセット
+  advancement revoke @s only private_dimension:consume/dimension_in_a_bottle

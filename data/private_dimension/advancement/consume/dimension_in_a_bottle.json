@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "ChuzData": {
+                "ItemID": "Dimension_in_a_Bottle"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "private_dimension:item/dimension_in_a_bottle/use"
+  }
+}

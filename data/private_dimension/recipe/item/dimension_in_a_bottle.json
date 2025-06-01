@@ -12,8 +12,10 @@
     "L": "minecraft:lodestone"
   },
   "result": {
-    "id": "minecraft:lingering_potion",
+    "id": "minecraft:potion",
+    "count": 1,
     "components": {
+      "minecraft:item_model": "minecraft:lingering_potion",
       "minecraft:custom_name": {
         "text": "Dimension in a Bottle",
         "color": "aqua",
@@ -60,8 +62,51 @@
           "minecraft:potion_contents"
         ]
       },
-      "minecraft:enchantment_glint_override": true
-    },
-    "count": 1
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "sound": "intentionally_empty",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 1,
+        "cooldown_group": "dimension_in_a_bottle"
+      },
+      "minecraft:use_remainder": {
+        "id": "potion",
+        "count": 1,
+        "components": {
+          "minecraft:enchantments": {
+            "private_dimension:remainder": 1
+          },
+          "minecraft:item_model": "lingering_potion",
+          "minecraft:custom_name": {
+            "text": "Dimension in a Bottle",
+            "color": "aqua",
+            "italic": false
+          },
+          "minecraft:potion_contents": {
+            "custom_color": 4256511
+          },
+          "minecraft:tooltip_display": {
+            "hidden_components": [
+              "minecraft:potion_contents"
+            ]
+          },
+          "minecraft:custom_data": "{\"ChuzData\":{\"ItemID\":\"Dimension_in_a_Bottle\"}}",
+          "minecraft:enchantment_glint_override": false,
+          "minecraft:lore": [
+            {
+              "text": "このアイテムが残っているなら、",
+              "italic": false
+            },
+            {
+              "text": "バグが起きたということ。",
+              "italic": false
+            }
+          ]
+        }
+      }
+    }
   }
 }
