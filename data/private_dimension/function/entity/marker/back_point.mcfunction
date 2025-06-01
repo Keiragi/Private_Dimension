@@ -1,4 +1,4 @@
-#> private_dimension:entity/backmarker
+#> private_dimension:entity/marker/back_point
 #
 # バックマーカーのTick処理
 #
