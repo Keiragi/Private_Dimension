@@ -1,5 +1,6 @@
 {
   "values": [
-    "private_dimension:load"
+    "private_dimension:load",
+    "oh_my_dat:sys/load"
   ]
 }
