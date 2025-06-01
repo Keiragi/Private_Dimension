@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "fell_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -66
+              }
+            },
+            "dimension": "private_dimension:private_area"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "private_dimension:entity/plotborder/force_back"
+  }
+}
