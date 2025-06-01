@@ -33,8 +33,5 @@
 # 場所を更新した上で演出
   execute at @s run function private_dimension:event/vfx
 
-# 即座に追い出されないようにする
-  tag @s add PrivateDim.InPlot
-
 # 強制読み込み解除
   forceload remove all

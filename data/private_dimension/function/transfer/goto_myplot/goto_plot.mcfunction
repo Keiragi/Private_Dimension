@@ -9,6 +9,3 @@
 
 # タグ付与してたらモブを引っ張ってくる
   execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:transfer/pull_mobs
-
-# 即座に追い出されないようにする
-  tag @s add PrivateDim.InPlot
