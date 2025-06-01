@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "private_dimension:enter_portal"
+    "function": "private_dimension:event/enter_portal"
   }
 }

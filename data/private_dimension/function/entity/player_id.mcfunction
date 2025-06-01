@@ -1,4 +1,4 @@
-#> private_dimension:player_id
+#> private_dimension:entity/player_id
 #
 # プレイヤーIDを割り振る
 #

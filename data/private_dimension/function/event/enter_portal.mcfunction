@@ -1,4 +1,4 @@
-advancement revoke @s only private_dimension:enter_portal
+advancement revoke @s only private_dimension:event/enter_portal
 
 execute if predicate private_dimension:blindness run return fail
 execute rotated ~ 0 run tp ^ ^ ^1

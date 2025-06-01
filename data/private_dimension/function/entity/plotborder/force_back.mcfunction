@@ -16,4 +16,4 @@
 
 effect give @s slow_falling 1 0 true
 tp @s @s
-advancement revoke @s only private_dimension:fell_out
+advancement revoke @s only private_dimension:event/fell_out
