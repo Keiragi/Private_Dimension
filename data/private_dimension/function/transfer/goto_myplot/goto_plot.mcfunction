@@ -3,11 +3,8 @@
 # 使用者判定用タグを付与
   tag @s add This
 
-# マーカーを召喚
-  summon marker ~ ~ ~ {Tags:["PrivateDim.TPMarker"]}
-
 # マーカーに対してTP処理を仕掛ける
-  execute as @e[type=marker,tag=PrivateDim.TPMarker,sort=nearest,limit=1] run function private_dimension:transfer/goto_myplot/goto_saved_pos
+  execute summon marker run function private_dimension:transfer/goto_myplot/goto_saved_pos
 
 # 場所を更新した上で演出
   execute at @s run function private_dimension:event/vfx
