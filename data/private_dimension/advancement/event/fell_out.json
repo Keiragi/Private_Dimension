@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "private_dimension:entity/plotborder/force_back"
+    "function": "private_dimension:event/force_back"
   }
 }

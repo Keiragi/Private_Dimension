@@ -4,7 +4,7 @@
 #
 # @within function
 #   private_dimension:item/dimension_in_a_bottle/**
-#   private_dimension:entity/plotborder/force_back
+#   private_dimension:event/force_back
 
 # サウンド
   playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 2 0.8
