@@ -19,5 +19,4 @@
 # スコアID
   execute as @a unless score @s Chuz.PlayerID matches 0.. run function private_dimension:player_id
 
-# タグリセット
-  tag @a[tag=PrivateDim.Using.Potion] remove PrivateDim.Using.Potion
+execute at @e[type=minecraft:marker] run particle minecraft:electric_spark
