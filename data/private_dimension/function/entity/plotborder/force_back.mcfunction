@@ -13,3 +13,7 @@
 # バックマーカーを削除して、フォースロードを解除
   execute at @s run kill @e[type=marker,tag=PrivateDim.BackMarker,distance=..0.1,sort=nearest,limit=1]
   execute at @s run forceload remove ~ ~
+
+effect give @s slow_falling 1 0 true
+tp @s @s
+advancement revoke @s only private_dimension:fell_out
