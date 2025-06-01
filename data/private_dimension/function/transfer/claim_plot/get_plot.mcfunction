@@ -22,7 +22,7 @@
   summon marker ~ 60 ~ {Tags:["PrivateDim.PlotBorder"]}
 
 # タグ付与してたらモブを引っ張ってくる
-  execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:item/pull_mobs
+  execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:transfer/pull_mobs
 
 # 自身のPosをスコア化
   execute at @s store result score @s PrivateDim.PosX run data get entity @s Pos[0] 10
