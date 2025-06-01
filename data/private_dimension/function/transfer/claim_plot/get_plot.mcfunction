@@ -25,9 +25,10 @@
   execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:transfer/pull_mobs
 
 # 自身のPosをスコア化
-  execute at @s store result score @s PrivateDim.PosX run data get entity @s Pos[0] 10
-  execute at @s store result score @s PrivateDim.PosY run data get entity @s Pos[1] 10
-  execute at @s store result score @s PrivateDim.PosZ run data get entity @s Pos[2] 10
+  function #oh_my_dat:please
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.Player.PosX set from entity @s Pos[0]
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.Player.PosY set from entity @s Pos[1]
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.Player.PosZ set from entity @s Pos[2]
 
 # 場所を更新した上で演出
   execute at @s run function private_dimension:event/vfx

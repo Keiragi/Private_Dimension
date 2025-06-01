@@ -1,10 +1,8 @@
 ## 自分の持ってる空間へと移動
 
-# 使用者判定用タグを付与
-  tag @s add This
-
-# マーカーに対してTP処理を仕掛ける
-  execute summon marker run function private_dimension:transfer/goto_myplot/goto_saved_pos
+# TP処理を仕掛ける
+  function #oh_my_dat:please
+  function private_dimension:transfer/goto_myplot/goto_saved_pos with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.Player
 
 # 場所を更新した上で演出
   execute at @s run function private_dimension:event/vfx
@@ -14,6 +12,3 @@
 
 # 即座に追い出されないようにする
   tag @s add PrivateDim.InPlot
-
-# 使用者判定用タグを削除
-  tag @s remove This

@@ -10,8 +10,3 @@
   scoreboard objectives add PrivateDim.HavePlot dummy
   scoreboard objectives add PrivateDim.PlotID dummy
   scoreboard objectives add PrivateDim.Death deathCount
-
-#> 区画のXYZ座標
-  scoreboard objectives add PrivateDim.PosX dummy
-  scoreboard objectives add PrivateDim.PosY dummy
-  scoreboard objectives add PrivateDim.PosZ dummy
