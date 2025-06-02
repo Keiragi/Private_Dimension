@@ -85,7 +85,8 @@
                     },
                     "minecraft:tooltip_display": {
                       "hidden_components": [
-                        "minecraft:potion_contents"
+                        "minecraft:potion_contents",
+                        "minecraft:enchantments"
                       ]
                     },
                     "minecraft:custom_data": "{\"ChuzData\":{\"ItemID\":\"Dimension_in_a_Bottle\"}}",
