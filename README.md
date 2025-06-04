@@ -22,3 +22,8 @@ A derivative work of “Private_Dimension” by Chuzume.<br>
 [Dimension in a Bottle]
 
 ![Image](https://cdn-ak.f.st-hatena.com/images/fotolife/C/Chuzume/20230105/20230105085556.png)
+
+
+## 変更点
+- プライベート空間の構造物を浮島に
+- 全員が集まれる共有空間の追加
