@@ -13,7 +13,7 @@
 
 # 足場置く
   setblock ~ ~ ~ air
-  execute positioned ~-16 55 ~-16 run place template private_dimension:floating_plains
+  execute positioned ~-16 55 ~-16 run place template private_dimension:floating_island/plains
 
 # 下に降りる
   tp @s ~ 63 ~
