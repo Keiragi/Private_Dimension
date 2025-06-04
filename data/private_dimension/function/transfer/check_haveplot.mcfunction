@@ -9,4 +9,4 @@
   execute if score @s PrivateDim.HavePlot matches 1 run function private_dimension:transfer/goto_myplot/goto_plot
 
 # 持ってなかったら土地作る処理に
-  execute unless score @s PrivateDim.HavePlot matches 1 in private_dimension:private_area run function private_dimension:init/claim_plot/goto_000
+  execute unless score @s PrivateDim.HavePlot matches 1 in private_dimension:private_area run function private_dimension:place/claim_plot/goto_000
