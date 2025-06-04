@@ -1,7 +1,7 @@
 ## 常時Tickされる処理
 
 # バックマーカーの見た目的なもの
-  execute at @e[type=marker,tag=PrivateDim.BackMarker] run function private_dimension:entity/marker/back_point
+  execute at @e[type=marker,tag=PrivateDim.BackMarker] run function private_dimension:transfer/back_point
 
 # アイテム保護
   execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ChuzData:{ItemID:Dimension_in_a_Bottle}}}}}] at @s run function private_dimension:item/protected
