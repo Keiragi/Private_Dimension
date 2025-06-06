@@ -3,7 +3,7 @@
     "enter_portal": {
       "trigger": "minecraft:enter_block",
       "conditions": {
-        "block": "minecraft:purple_stained_glass_pane"
+        "block": "minecraft:end_gateway"
       }
     }
   },
