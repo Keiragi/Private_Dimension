@@ -3,7 +3,7 @@
 # 戻る地点を記録しておく
   forceload add ~ ~
   summon marker ~ ~ ~ {Tags:["PrivateDim.BackMarker"]}
-  scoreboard players operation @e[type=marker,distance=..0.01,limit=1] Chuz.EntityID = @s Chuz.PlayerID
+  scoreboard players operation @e[type=marker,distance=..0.01,limit=1] S.EntityID = @s S.PlayerID
 
 # 土地を持ってるなら移動
   execute if score @s PrivateDim.HavePlot matches 1 run function private_dimension:transfer/goto_myplot/goto_plot
