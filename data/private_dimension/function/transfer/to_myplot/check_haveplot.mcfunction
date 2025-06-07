@@ -10,7 +10,7 @@
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint.Dimension set from entity @s Dimension
 
 # スコアID
-  execute as @a unless score @s S.PlayerID matches 0.. run function private_dimension:init/player_id
+  execute as @a unless score @s PrivateDim.PlayerID matches 0.. run function private_dimension:init/player_id
 
 # 土地を持ってるなら移動
   execute if score @s PrivateDim.HavePlot matches 1 run function private_dimension:transfer/to_myplot/goto_plot
