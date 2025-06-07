@@ -1,5 +1,8 @@
 ## これを実行すれば元の位置に戻る
 
+# 特殊空間でなければキャンセル
+  execute unless dimension private_dimension:private_area run return 0
+
 # 個人ストレージ呼び出し
   function #oh_my_dat:please
 
