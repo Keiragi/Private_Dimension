@@ -6,5 +6,4 @@
 
 #> このデータパックのスコア
   scoreboard objectives add PrivateDim.HavePlot dummy
-  scoreboard objectives add PrivateDim.PlotID dummy
   scoreboard objectives add PrivateDim.Death deathCount
