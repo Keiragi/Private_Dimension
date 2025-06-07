@@ -5,6 +5,9 @@
   summon marker ~ ~ ~ {Tags:["PrivateDim.BackMarker"]}
   scoreboard players operation @e[type=marker,distance=..0.01,limit=1] S.EntityID = @s S.PlayerID
 
+# スコアID
+  execute as @a unless score @s S.PlayerID matches 0.. run function private_dimension:init/player_id
+
 # 土地を持ってるなら移動
   execute if score @s PrivateDim.HavePlot matches 1 run function private_dimension:transfer/goto_myplot/goto_plot
 
