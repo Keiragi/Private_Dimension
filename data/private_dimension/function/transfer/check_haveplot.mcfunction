@@ -1,9 +1,10 @@
 ## 個人ディメンションに移動
 
 # 戻る地点を記録しておく
-  forceload add ~ ~
-  summon marker ~ ~ ~ {Tags:["PrivateDim.BackMarker"]}
-  scoreboard players operation @e[type=marker,distance=..0.01,limit=1] S.EntityID = @s S.PlayerID
+  function #oh_my_dat:please
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint.PosX set from entity @s Pos[0]
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint.PosY set from entity @s Pos[1]
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint.PosZ set from entity @s Pos[2]
 
 # スコアID
   execute as @a unless score @s S.PlayerID matches 0.. run function private_dimension:init/player_id

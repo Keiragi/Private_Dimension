@@ -2,7 +2,7 @@
 
 # TP処理を仕掛ける
   function #oh_my_dat:please
-  function private_dimension:transfer/goto_myplot/goto_saved_pos with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.Player
+  function private_dimension:transfer/goto_myplot/goto_saved_pos with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.PlotPoint
 
 # 場所を更新した上で演出
   execute at @s run function private_dimension:event/vfx

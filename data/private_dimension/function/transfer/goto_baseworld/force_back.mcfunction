@@ -1,14 +1,11 @@
 ## 帰れ！！！！
 
 # 自身と同じIDのバックマーカーへ移動
-  execute at @e[type=marker,tag=PrivateDim.BackMarker] if score @s S.PlayerID = @e[type=marker,tag=PrivateDim.BackMarker,distance=..0.01,limit=1] S.EntityID run tp @s ~ ~ ~
+  function #oh_my_dat:please
+  function private_dimension:transfer/goto_myplot/goto_saved_pos with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint
 
 # 演出
   execute at @s run function private_dimension:event/vfx
-
-# バックマーカーを削除して、フォースロードを解除
-  execute at @s run kill @e[type=marker,tag=PrivateDim.BackMarker,distance=..0.01,limit=1]
-  execute at @s run forceload remove ~ ~
 
 # 落下のリセット
   effect give @s slow_falling 1 0 true
