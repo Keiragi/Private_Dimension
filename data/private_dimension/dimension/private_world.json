@@ -1,5 +1,5 @@
 {
-  "type": "private_dimension:private_area",
+  "type": "private_dimension:private_world",
   "generator": {
     "type": "minecraft:flat",
     "settings": {

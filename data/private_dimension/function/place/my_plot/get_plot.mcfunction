@@ -31,7 +31,7 @@
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.PlotPoint.PosZ set from entity @s Pos[2]
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.PlotPoint.RotX set value 0.0
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.PlotPoint.RotY set value 0.0
-  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.PlotPoint.Dimension set value "private_dimension:private_area"
+  data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.PlotPoint.Dimension set value "private_dimension:private_world"
 
 # 場所を更新した上で演出
   execute at @s run function private_dimension:event/vfx

@@ -11,7 +11,7 @@
   execute if predicate private_dimension:sneak run tag @e[type=!#private_dimension:cannot_tp,distance=..3,limit=10] add PrivateDim.Bring
 
 # プライベート次元でないなら、プライベート次元に移動
-  execute unless dimension private_dimension:private_area run return run function private_dimension:transfer/to_myplot/check_haveplot
+  execute unless dimension private_dimension:private_world run return run function private_dimension:transfer/to_myplot/check_haveplot
 
 # プライベート次元なら、ベースワールドに帰還
   function private_dimension:transfer/to_baseworld/main
