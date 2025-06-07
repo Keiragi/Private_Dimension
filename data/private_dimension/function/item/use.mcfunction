@@ -14,4 +14,4 @@
   execute unless dimension private_dimension:private_area run return run function private_dimension:transfer/goto_myplot/check_haveplot
 
 # プライベート次元なら、ベースワールドに帰還
-  execute if dimension private_dimension:private_area run return run function private_dimension:transfer/goto_baseworld/goto_backmarker
+  function private_dimension:transfer/goto_baseworld/main
