@@ -2,7 +2,7 @@
 
 # 自身と同じIDのバックマーカーへ移動
   function #oh_my_dat:please
-  function private_dimension:transfer/goto_myplot/goto_saved_pos with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint
+  function private_dimension:transfer/goto_saved_pos with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint
 
 # 演出
   execute at @s run function private_dimension:event/vfx
