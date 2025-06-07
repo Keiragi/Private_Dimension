@@ -1,4 +1,4 @@
 ## インストールチェック
 
-execute unless data storage chuz:context PrivateDim.Install run function private_dimension:init/install/main
-data modify storage chuz:context PrivateDim.Install set value 1
+execute unless data storage shrs:context PrivateDim.Install run function private_dimension:init/install/main
+data modify storage shrs:context PrivateDim.Install set value 1

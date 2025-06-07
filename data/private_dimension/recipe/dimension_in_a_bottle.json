@@ -50,7 +50,7 @@
         }
       ],
       "minecraft:custom_data": {
-        "ChuzData": {
+        "S.Data": {
           "ItemID": "Dimension_in_a_Bottle"
         }
       },
@@ -93,7 +93,7 @@
               "minecraft:potion_contents"
             ]
           },
-          "minecraft:custom_data": "{\"ChuzData\":{\"ItemID\":\"Dimension_in_a_Bottle\"}}",
+          "minecraft:custom_data": "{\"S.Data\":{\"ItemID\":\"Dimension_in_a_Bottle\"}}",
           "minecraft:enchantment_glint_override": false,
           "minecraft:lore": [
             {

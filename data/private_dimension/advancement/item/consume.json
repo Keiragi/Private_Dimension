@@ -6,7 +6,7 @@
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "ChuzData": {
+              "S.Data": {
                 "ItemID": "Dimension_in_a_Bottle"
               }
             }
