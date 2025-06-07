@@ -13,7 +13,7 @@
   effect give @s blindness 1 0 true
 
 # プライベート次元でないなら、プライベート次元に移動
-  execute unless dimension private_dimension:private_area run return run function private_dimension:transfer/check_haveplot
+  execute unless dimension private_dimension:private_area run return run function private_dimension:transfer/goto_myplot/check_haveplot
 
 # プライベート次元なら、ベースワールドに帰還
   execute if dimension private_dimension:private_area run return run function private_dimension:transfer/goto_baseworld/goto_backmarker
