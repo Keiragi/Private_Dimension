@@ -5,9 +5,6 @@
 # 足腰対策
   effect give @s slow_falling 1 0 true
 
-# タグ付与
-  tag @s add PrivateDim.ClaimSuccess
-
 # 土地所有フラグを1にする
   scoreboard players set @s PrivateDim.HavePlot 1
 
