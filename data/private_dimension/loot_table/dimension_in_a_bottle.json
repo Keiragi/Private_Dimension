@@ -64,7 +64,7 @@
                   "has_consume_particles": false
                 },
                 "use_cooldown": {
-                  "seconds": 1,
+                  "seconds": 2,
                   "cooldown_group": "dimension_in_a_bottle"
                 },
                 "minecraft:use_remainder": {
