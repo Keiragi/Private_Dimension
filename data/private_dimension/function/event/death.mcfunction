@@ -1,8 +1,7 @@
-## 死んだときもろもろ
+## 死亡時処理
 
-# 自身と同じIDのバックマーカーへ移動
-  function #oh_my_dat:please
-  function private_dimension:transfer/goto_saved_pos with storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint
+# 帰還処理
+  function private_dimension:transfer/to_baseworld/main
 
 # スコアリセット
   scoreboard players reset @s PrivateDim.Death
