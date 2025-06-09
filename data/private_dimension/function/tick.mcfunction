@@ -7,6 +7,6 @@
   execute as @a run function private_dimension:transfer/back_point/main
 
 # 死んだら実行される
-  execute as @a[scores={PrivateDim.Death=0..}] at @s run function private_dimension:event/death
+  execute as @a[scores={PrivateDim.Death=0..}] at @s run function private_dimension:transfer/to_baseworld/main
 
 execute at @e[type=minecraft:marker] run particle minecraft:electric_spark

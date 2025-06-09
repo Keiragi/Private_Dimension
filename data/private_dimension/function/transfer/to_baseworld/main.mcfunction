@@ -1,5 +1,8 @@
 ## これを実行すれば元の位置に戻る
 
+# スコアリセット
+  scoreboard players reset @s PrivateDim.Death
+
 # 特殊空間でなければキャンセル
   execute unless dimension private_dimension:private_world run return 0
 
