@@ -9,14 +9,10 @@
   scoreboard players set @s PrivateDim.HavePlot 1
 
 # 足場置く
-  setblock ~ ~ ~ air
   execute positioned ~-16 55 ~-16 run place template private_dimension:floating_island/plains
 
-# 下に降りる
-  tp @s ~ 63 ~
-
-# ボーダー召喚
-  summon marker ~ 60 ~ {Tags:["PrivateDim.PlotBorder"]}
+# 位置調整
+  execute align xyz run tp @s ~ ~ ~ 0 0
 
 # タグ付与してたらモブを引っ張ってくる
   execute at @s as @e[tag=PrivateDim.Bring] run function private_dimension:transfer/pull_mobs
