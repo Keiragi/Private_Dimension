@@ -1,6 +1,6 @@
 
 # 強制読み込み
-  forceload add ~ ~
+  forceload add ~-16 ~-16 ~16 ~16
 
 # 足腰対策
   effect give @s slow_falling 1 0 true
@@ -34,4 +34,4 @@
   execute at @s run function private_dimension:event/vfx
 
 # 強制読み込み解除
-  forceload remove all
+  forceload remove ~-16 ~-16 ~16 ~16
