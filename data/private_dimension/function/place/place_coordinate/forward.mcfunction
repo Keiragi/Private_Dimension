@@ -6,7 +6,7 @@
   scoreboard players remove $ring.forward PrivateDim.PlotOp 1
 
 # 再帰
-  execute positioned ^ ^ ^5 run function private_dimension:place/place_coordinate/forward
+  execute positioned ^ ^ ^4285000 run function private_dimension:place/place_coordinate/forward
 
 # 表示リセット
 #scoreboard players reset * PrivateDim.PlotOp
