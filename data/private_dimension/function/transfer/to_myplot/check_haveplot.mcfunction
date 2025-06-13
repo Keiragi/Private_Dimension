@@ -10,7 +10,7 @@
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint.RotY set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint.Rotation[1]
 
 # スコアID
-  execute if score @s PrivateDim.PlotID matches 0.. run function private_dimension:init/player_id
+  execute unless score @s PrivateDim.PlotID matches 1.. run function private_dimension:init/player_id
 
 # 土地を持ってるなら移動
   execute if score @s PrivateDim.HavePlot matches 1 run function private_dimension:transfer/to_myplot/goto_plot
