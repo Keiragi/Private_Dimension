@@ -1,4 +1,7 @@
-scoreboard players set $island PrivateDim.PlotOp 24
+# プレイヤーIDから島を決定
+  scoreboard players operation $island PrivateDim.PlotOp = @s PrivateDim.PlotID
+
+# 初期設定 (最初の枠をスキップ)
 scoreboard players set $ring PrivateDim.PlotOp 0
 scoreboard players set #6 PrivateDim.PlotOp 6
 
