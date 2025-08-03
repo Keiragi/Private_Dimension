@@ -1,6 +1,9 @@
 # Y0へとTP
   tp @s 0.0 0.0 0.0
 
+# hubの確認
+  function s.private_dimension:place/hub/main
+
 # プレイヤーIDから島を決定
   scoreboard players operation $Island PrivateDim.Plot = @s PrivateDim.Plot
 
