@@ -1,9 +1,0 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "location": {
-      "dimension": "private_dimension:private_world"
-    }
-  }
-}

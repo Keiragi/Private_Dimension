@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "fell_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -66
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "s.private_dimension:transfer/to_baseworld/main"
+  }
+}
