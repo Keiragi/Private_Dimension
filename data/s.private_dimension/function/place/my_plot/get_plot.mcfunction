@@ -5,9 +5,6 @@
 # 足腰対策
   effect give @s slow_falling 1 0 true
 
-# 土地所有フラグを1にする
-  scoreboard players set @s PrivateDim.HavePlot 1
-
 # 足場置く
   execute positioned ~-16 55 ~-16 run place template s.private_dimension:floating_island/plains
 

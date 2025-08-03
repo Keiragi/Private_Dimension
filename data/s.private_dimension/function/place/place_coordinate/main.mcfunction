@@ -1,3 +1,6 @@
+# Y0へとTP
+  tp @s 0.0 0.0 0.0
+
 # プレイヤーIDから島を決定
   scoreboard players operation $island PrivateDim.PlotOp = @s PrivateDim.PlotID
 
