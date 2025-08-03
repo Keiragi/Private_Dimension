@@ -14,5 +14,6 @@
 # スコアIDが無ければ島作成処理
   execute unless score @s PrivateDim.Plot matches 1.. run return run function s.private_dimension:init/player_id
 
-# 土地を持ってるなら移動
-  function s.private_dimension:transfer/to_myplot/goto_plot
+# スニーク判定で分岐
+  execute if predicate s.private_dimension:sneak run return run function s.private_dimension:transfer/to_private/to_plot
+  function s.private_dimension:transfer/to_private/to_hub

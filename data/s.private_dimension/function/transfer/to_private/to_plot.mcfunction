@@ -7,5 +7,5 @@
 # 場所を更新した上で演出
   execute at @s run function s.private_dimension:event/vfx
 
-# タグ付与してたらモブを引っ張ってくる
-  execute at @s as @e[tag=PrivateDim.Bring] run function s.private_dimension:transfer/pull_mobs
+# タグを付与したモブを移動
+  function s.private_dimension:transfer/pull_mobs
