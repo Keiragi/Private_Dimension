@@ -11,8 +11,8 @@
 # 位置調整
   execute align xyz run tp @s ~ ~ ~ 0 0
 
-# タグ付与してたらモブを引っ張ってくる
-  execute at @s as @e[tag=PrivateDim.Bring] run function s.private_dimension:transfer/pull_mobs
+# タグを付与したモブを移動
+  function s.private_dimension:transfer/pull_mobs
 
 # 自身のPosをスコア化
   function #oh_my_dat:please

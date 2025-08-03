@@ -1,7 +1,3 @@
-## モブを引っ張ってきてタグを消す
-
-# タグを奪う
-  tag @s remove PrivateDim.Bring
-
-# モブを引っ張ってくる
-  tp @s ~ ~ ~
+## タグを付与したモブを移動
+  execute at @s as @e[tag=PrivateDim.Bring] run tp @s ~ ~ ~
+  tag @e[tag=PrivateDim.Bring] remove PrivateDim.Bring

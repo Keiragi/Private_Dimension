@@ -6,8 +6,8 @@
 # 演出
   function s.private_dimension:event/vfx
 
-# タグ付与してたらモブを引っ張ってくる
-  execute as @e[tag=PrivateDim.Bring] run function s.private_dimension:transfer/pull_mobs
+# タグを付与したモブを移動
+  function s.private_dimension:transfer/pull_mobs
 
 # 落下のリセット
   effect give @s slow_falling 1 0 true
