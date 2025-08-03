@@ -9,9 +9,9 @@
 #     $ring +=1
 #   }
 
-scoreboard players operation $ring.points PrivateDim.PlotOp = $ring PrivateDim.PlotOp
-scoreboard players operation $ring.points PrivateDim.PlotOp *= #6 PrivateDim.PlotOp
-execute if score $step PrivateDim.PlotOp <= $ring.points PrivateDim.PlotOp run return 0
-scoreboard players operation $step PrivateDim.PlotOp -= $ring.points PrivateDim.PlotOp
-scoreboard players add $ring PrivateDim.PlotOp 1
+scoreboard players operation $ring.points PrivateDim.Plot = $ring PrivateDim.Plot
+scoreboard players operation $ring.points PrivateDim.Plot *= #6 PrivateDim.Plot
+execute if score $step PrivateDim.Plot <= $ring.points PrivateDim.Plot run return 0
+scoreboard players operation $step PrivateDim.Plot -= $ring.points PrivateDim.Plot
+scoreboard players add $ring PrivateDim.Plot 1
 function s.private_dimension:place/place_coordinate/calc_ring

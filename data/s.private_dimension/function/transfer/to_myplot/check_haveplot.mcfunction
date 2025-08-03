@@ -12,7 +12,7 @@
   data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint.RotY set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].PrivateDim.BackPoint.Rotation[1]
 
 # スコアIDが無ければ島作成処理
-  execute unless score @s PrivateDim.PlotID matches 1.. run return run function s.private_dimension:init/player_id
+  execute unless score @s PrivateDim.Plot matches 1.. run return run function s.private_dimension:init/player_id
 
 # 土地を持ってるなら移動
   function s.private_dimension:transfer/to_myplot/goto_plot
